@@ -25,7 +25,7 @@
 <h2> 🍿 How to Run the Website on Your System </h2>
 <h3> Step 1: Download and Extract the Code </h3>
 <p>First, download the entire website code and extract the ZIP file to a folder on your local system.</p>
-<h4>Website Code: https://github.com/BilgeGates/Developer-Portfolio.git</h4>
+<h4>Website Code: https://https://github.com/tchaipa/vostertech/</h4>
 <h3>Step 2: Run the Website
 </h3>
 <p>Open your code editor (such as VS Code) and navigate to the project directory. Then, open a terminal and run the following command:
