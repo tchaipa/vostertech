@@ -1,5 +1,5 @@
 <h1 align="center">Developer Portfolio</h1>
-<p>The "Developer Portfolio" project refers to a web application that you create to showcase your personal or professional work. ReactJS is a powerful tool that lets you develop a JavaScript library and UI that underpins your project. Bootstrap is a CSS and UI library that makes it easy to create and edit your project's design. In this way, it is possible for your project to have a visually appealing and responsive design. Animate.js is a JavaScript library that allows you to add motion and animation features to your project. With this library, you can make user interactions more interesting and improve users' experience.</p>
+<p>The "Vostertech Consultancy" project refers to a website developed for a consultancy firm. ReactJS is a powerful tool that lets you develop a JavaScript library and UI that underpins your project. Bootstrap is a CSS and UI library that makes it easy to create and edit your project's design. In this way, it is possible for your project to have a visually appealing and responsive design. Animate.js is a JavaScript library that allows you to add motion and animation features to your project. With this library, you can make user interactions more interesting and improve users' experience.</p>
 <hr />
 <img src="./src/assets/img/Project.jpg">
 <hr />
@@ -37,5 +37,5 @@ pnpm run dev</p>
  ```
 <hr />
 <h2> 🍿 Demo </h2>
-<p> - Check out our live demo at https://portfolio-developer-page.netlify.app/ </p>
-#
+<!-- <p> - Check out our live demo at https://portfolio-developer-page.netlify.app/ </p>
+# -->
