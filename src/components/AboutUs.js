@@ -39,15 +39,21 @@ export default function AboutUs() {
                             sodales sapien vitae malesuada ultricies. Curabitur pretium ipsum non nunc facilisis semper.
                         </span>
 
-                        <div className='col py-4 ms-6'>
+                        <div >
                         <ul>
-                            <li>Coffee</li>
-                            <li>Tea</li>
-                            <li>Milk</li>
-                            <li>Coffee</li>
-                            <li>Tea</li>
-                            <li>Milk</li>
+                            <li>Business registration</li>
+                            <li>Tax advisory</li>
                         </ul> 
+                        <br/>
+                        <ul>
+                            <li>Financial advisory</li>
+                            <li>Company secretarial services</li>
+                        </ul>
+                        <br/>
+                        <ul>
+                            <li>Compliance services</li>
+                            <li>Business consulting</li>
+                        </ul>
                         </div>
                     </div>
                 </div>

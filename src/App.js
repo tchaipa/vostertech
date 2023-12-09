@@ -1,6 +1,7 @@
 import './App.css';
 // import Header from '../src/components/Header';
-import Navbar from '../src/components/Navbar'
+// import Navbar from '../src/components/Navbar';
+import Navv from '../src/components/Navv';
 import Banner from '../src/components/Banner';
 import AboutUs from '../src/components/AboutUs';
 import Services from '../src/components/Services';
@@ -10,9 +11,10 @@ import Pictures from '../src/components/Pictures';
 
 function App() {
   return (
-    <div className='app'>
+    <div className='app container-fluid'>
       {/* <Header /> */}
-      <Navbar/>
+      {/* <Navbar/> */}
+      <Navv/>
       <Banner/>
       <AboutUs />
       <Services />
