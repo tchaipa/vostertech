@@ -117,16 +117,7 @@ p.danger {
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
-/* .banner .tagline {
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  font-size: 20px;
-  margin-bottom: 16px;
-  display: inline-block;
-} */
+
 .banner h1 {
   font-size: 65px;
   color: #0a0342;
@@ -199,8 +190,9 @@ nav.navbar.scrolled {
   opacity: 100%;
 }
 nav.navbar a.navbar-brand {
-    width: 9%;
+    width: 25%;
 }
+
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
@@ -217,7 +209,11 @@ span.navbar-text {
     display: flex;
     align-items: center;
 }
-.social-icon {
+
+/* .navbar-expand-md .navbar-collapse {
+  display: inline!important;
+} */
+/* .social-icon {
     display: inline-block;
     margin-left: 14px;
 }
@@ -253,7 +249,7 @@ span.navbar-text {
 }
 .social-icon a:hover img {
 	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
-}
+} */
 .navbar-text button {
   font-weight: 700;
   color: #fff;
@@ -347,13 +343,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-bottom-right-radius:50px;
   height: 407px;
   width: 612px;
+  display: block;
 }
 
 .aboutus-text p {
   color: #1e70ea;
   font-weight: bold;
   font-family: 'Cabin';
-  font-size: 18px;
 
 }
 
@@ -376,4 +372,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .services p {
   color: #1e70ea;
   font-weight: bold;
+  text-align: center;
+  font-family: 'Cabin';
+}
+.services h3 {
+  text-align: center;
+}
+.services span {
+  align-items: center;
+  justify-content: center;
 }

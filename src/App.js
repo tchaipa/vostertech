@@ -11,7 +11,7 @@ import Pictures from '../src/components/Pictures';
 
 function App() {
   return (
-    <div className='app container-fluid'>
+    <div className='app'>
       {/* <Header /> */}
       {/* <Navbar/> */}
       <Navv/>
