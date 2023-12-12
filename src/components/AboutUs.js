@@ -39,7 +39,7 @@ export default function AboutUs() {
                             sodales sapien vitae malesuada ultricies. Curabitur pretium ipsum non nunc facilisis semper.
                         </span>
 
-                        <div >
+                        <div>
                         <ul>
                             <li>Business registration</li>
                             <li>Tax advisory</li>
