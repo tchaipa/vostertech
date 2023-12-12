@@ -12,12 +12,7 @@ function Services () {
                 <br/>
                 We offer a wide range of services including:
             </span>
-
-
         </div>
-
-        
-
         </div>
         
 

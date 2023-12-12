@@ -1,7 +1,6 @@
 import './App.css';
 // import Header from '../src/components/Header';
-// import Navbar from '../src/components/Navbar';
-import Navv from '../src/components/Navv';
+import NavBar from '../src/components/NavBar';
 import Banner from '../src/components/Banner';
 import AboutUs from '../src/components/AboutUs';
 import Services from '../src/components/Services';
@@ -13,8 +12,7 @@ function App() {
   return (
     <div className='app'>
       {/* <Header /> */}
-      {/* <Navbar/> */}
-      <Navv/>
+      <NavBar/>
       <Banner/>
       <AboutUs />
       <Services />
