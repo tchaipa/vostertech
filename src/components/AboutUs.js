@@ -13,7 +13,7 @@ export default function AboutUs() {
         <div className="row">
 
             <div className="col-md-12 col-lg-6 p-4">
-                <div className="mbr-figure">
+                <div className="mbr-figure fluid">
                     <img 
                     src={aboutus}
                     alt='AboutUs'

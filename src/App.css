@@ -23,18 +23,9 @@ flex-direction: column;
 width: 100%;
 }
 
-.footer-text {
-  font-family: cursive;
-  font-size: 110%;
-}
-
-.footer {
-  background-color: #f1f5fd;
-}
-
-.app {
+/* .app {
   background-color: black;
-}
+} */
 
 
 /************ Default Css ************/
@@ -333,6 +324,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+/************ Registration Css ************/
+.registration {
+  background-color: #f1f5fd;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 100px;
+
+}
+.registration h3{
+font-family: 'PT Sans';
+}
+.registration span {
+  padding-top: 50px;
+}
+.registration button{
+  margin-top: 50px;
+}
+
+
+
 /************ AboutUs Css ************/
 
 .aboutus{
@@ -378,5 +389,24 @@ float: left;
   font-weight: bold;
   font-family: 'Cabin';
   padding-top: 50px;
+}
+.MuiBox-root{
+  justify-content: center;
+}
+
+/************ Footer Css ************/
+.footer {
+  background-color: #f1f5fd !important;
+
+}
+footer {
+position:absolute;
+bottom: 0;
+width: 100%;
+height: 60px;   /* Height of the footer */
+}
+.footer-text {
+  font-family: cursive;
+  font-size: 110%;
 }
 

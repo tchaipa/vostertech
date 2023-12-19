@@ -1,14 +1,13 @@
 import React from 'react';
-import logo from "../assets/logo.png";
+import logo from "../assets/vlogo.png";
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon,MDBBtn,MDBInput } from 'mdb-react-ui-kit';
 
 export default function Footer() {
   return (
 
-    <div className='footer'> 
-<MDBFooter bgColor='light' className='text-center text-lg-start text-muted' style={{backgroundColor: 'red'}}>
+     <div className='footer container-fluid'> 
+<MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
       <section className=' p-4 border-bottom'>
-      <div>
           <a href='' className='me-4 text-reset'>
             <MDBIcon color='secondary' fab icon='facebook-f' />
           </a>
@@ -27,7 +26,6 @@ export default function Footer() {
           <a href='' className='me-4 text-reset'>
             <MDBIcon color='secondary' fab icon='github' />
           </a>
-        </div>
       </section>
 
       <section className=''>
@@ -135,7 +133,7 @@ export default function Footer() {
         </a>
       </div>
     </MDBFooter>
-    </div>
+     </div>
 
     
   );
