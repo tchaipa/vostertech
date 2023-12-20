@@ -6,6 +6,7 @@ import Services from '../src/components/Services';
 import Pictures from '../src/components/Pictures';
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import Registration from './components/Registration';
+import FAQ from './components/FAQ';
 // import Footer from '../src/components/Footer';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Services />
       <Pictures />
       <FloatingWhatsApp  />
+      <FAQ/>
       {/* <Footer /> */}
     </div>
   

@@ -382,6 +382,7 @@ float: left;
 .services {
   background-color: #f1f5fd;
   text-align: center;
+  padding-bottom: 50px;
   
 }
 .services p {
@@ -392,6 +393,14 @@ float: left;
 }
 .MuiBox-root{
   justify-content: center;
+  padding-top: 50px;
+}
+/************ FAQ Css ************/
+.faq {
+  background-color: white;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 100px;
 }
 
 /************ Footer Css ************/
@@ -404,6 +413,7 @@ position:absolute;
 bottom: 0;
 width: 100%;
 height: 60px;   /* Height of the footer */
+background-color: white;
 }
 .footer-text {
   font-family: cursive;
