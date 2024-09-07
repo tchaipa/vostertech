@@ -3,10 +3,10 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import image from '../assets/vlogo.png';
 import navIcon2 from '../assets/nav-icon2.svg';
 import navIcon3 from '../assets/nav-icon3.svg';
-import navIcon6 from '../assets/nav-icon8.svg';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
+// import FaqPage from "./FaqPage";
 
 export default function NavBar  () {
 
@@ -53,13 +53,13 @@ export default function NavBar  () {
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>About Us</Nav.Link>
               <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>Contact</Nav.Link>
+              {/* <Nav.Link href={FaqPage} className={activeLink === 'faq' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>FAQ</Nav.Link> */}
             </Nav>
             <span className="navbar-text">
-              <div className="social-icon">
+              {/* <div className="social-icon">
                 <a href="https://facebook.com/"><img src={navIcon2} alt="" /></a>
                 <a href="https://instagram.com/"><img src={navIcon3} alt="" /></a>
-                <a href="https://gmail.com/"><img src={navIcon6} alt="" /></a>
-              </div>
+              </div> */}
             </span>
           </Navbar.Collapse>
         </Container>
